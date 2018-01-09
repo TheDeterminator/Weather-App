@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+.header {
+  font-size: 6em;
+}
+
+.loc {
+  font-size: 1.8em;
+}
+
+.icon {
+  margin: auto;
+}
+
+.unit {
+  color: blue;
+  background-color: black;
+  border: none ;
+}
+
+#f {
+  color: red;
+  background: black;
+  border: none;
+}
+
+.header, h2 {
+  color: gray;
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  .header {
+    font-size: 3em;
+  }
+  
+  .loc {
+    font-size: 1.5em;
+  }
+  
+  .unit {
+    padding-left: 0;
+  }
+  
+  .temp {
+    padding-left: 30px;
+  }
+}
